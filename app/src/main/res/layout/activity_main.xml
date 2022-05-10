@@ -51,7 +51,7 @@
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="c0"
+                android:tag="0"/>
 
 
             <ImageView
@@ -61,7 +61,7 @@
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="c1" />
+                android:tag="1" />
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -70,7 +70,7 @@
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="c2" />
+                android:tag="2" />
         </LinearLayout>
 
         <LinearLayout
@@ -86,7 +86,7 @@
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="c3" />
+                android:tag="3" />
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -95,7 +95,7 @@
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="c4" />
+                android:tag="4" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -104,7 +104,7 @@
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="c5" />
+                android:tag="5" />
         </LinearLayout>
 
         <LinearLayout
@@ -120,7 +120,7 @@
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="c6" />
+                android:tag="6" />
 
             <ImageView
                 android:id="@+id/imageView7"
@@ -129,7 +129,7 @@
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="c7" />
+                android:tag="7" />
 
             <ImageView
                 android:id="@+id/imageView8"
@@ -138,7 +138,7 @@
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="c8" />
+                android:tag="8" />
         </LinearLayout>
     </LinearLayout>
 
