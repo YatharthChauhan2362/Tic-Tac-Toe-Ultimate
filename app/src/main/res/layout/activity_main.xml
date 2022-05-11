@@ -30,6 +30,7 @@
         app:srcCompat="@drawable/grid" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="0dp"
         android:layout_height="420dp"
         android:orientation="vertical"
@@ -51,7 +52,8 @@
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="0"/>
+                android:tag="0"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
 
             <ImageView
@@ -61,7 +63,8 @@
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="1" />
+                android:tag="1"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -70,7 +73,8 @@
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="2" />
+                android:tag="2"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
         </LinearLayout>
 
         <LinearLayout
@@ -86,7 +90,8 @@
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="3" />
+                android:tag="3"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -95,7 +100,8 @@
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="4" />
+                android:tag="4"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -104,7 +110,8 @@
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="5" />
+                android:tag="5"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
         </LinearLayout>
 
         <LinearLayout
@@ -120,7 +127,8 @@
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="6" />
+                android:tag="6"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageView
                 android:id="@+id/imageView7"
@@ -129,7 +137,8 @@
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="7" />
+                android:tag="7"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageView
                 android:id="@+id/imageView8"
@@ -138,8 +147,24 @@
                 android:layout_weight="1"
                 android:onClick="playerTap"
                 android:padding="20sp"
-                android:tag="8" />
+                android:tag="8"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
         </LinearLayout>
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:text="X's Turn - Tap To Play"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.991" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
